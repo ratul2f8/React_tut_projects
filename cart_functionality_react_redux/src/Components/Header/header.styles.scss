@@ -1,0 +1,45 @@
+.header-container{
+    display: block;
+    margin: 6px 6px;
+    display: block;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 8vw;
+    border-radius: 100px;
+
+    .icon-itself{
+        position: absolute;
+        top: auto;
+        left: 48%;
+        width: 6vw;
+        height: 6vw;
+        display: inline-block;
+        margin-top: 1vw;
+
+        &:hover{
+            cursor: pointer;
+            transform: translateY(-3px);
+            transition: all 0.3s;
+        }
+        &:active{
+            opacity: 0.5;
+            transform: translateY(2px);
+        }
+    }
+    .item-count{
+        display: inline-block;
+        position: absolute;
+        top: 1.5vw;
+        left: 52.5vw;
+        background: black;
+        color: white;
+        padding: 2px 7px;
+        font-size: 100%;
+        border-radius: 100px;
+        user-select: none;
+        width: auto;
+        height: auto;
+    }
+}

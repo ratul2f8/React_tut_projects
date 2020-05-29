@@ -1,0 +1,28 @@
+.holder-by-category{
+    display: block;
+    margin-top: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+    background: rgb(238, 235, 235);
+    border-radius: 25px;
+    padding: 18px 18px;
+    align-items: left;
+
+   .category-title{
+       align-items: left;
+       font-size: 220%;
+       text-transform: uppercase;
+       letter-spacing: 3px;
+       width: 100%;
+
+   } 
+
+   .items-holder{
+       margin-top: 15px;
+       margin-bottom: 15px;
+       display: grid;
+       grid-template-rows: auto;
+       grid-template-columns: auto auto auto auto;
+       grid-row-gap : 15px;
+   }
+}

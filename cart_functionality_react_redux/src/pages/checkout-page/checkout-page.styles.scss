@@ -1,0 +1,94 @@
+.container{
+    box-sizing: border-box;
+    padding: 10px 10px;
+    margin-top: 20px;
+    
+    .back-btn{
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        border: none;
+        background: black;
+        color: whitesmoke;
+        padding: 20px 30px;
+        border-radius: 20px;
+        font-weight: bold;
+        outline: none;
+        transform: translateY(-3px);
+       transition: all 0.3s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            transform: translateX(1px);
+
+        }
+    }
+    .banner{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: 20px;
+        grid-column-gap: 1px;
+        .Name{
+            width: 60%;
+            font-size: large;
+            letter-spacing: 0.6px;
+            text-align: center;
+            justify-content: center;
+            color: white;
+            background: black;
+            padding: 15px;
+            display: inline-block;
+            height: 20px;
+            border-radius: 25px;
+        }
+        .Quantity{
+            width: 60%;
+            background: balck;
+            font-size: large;
+            letter-spacing: 0.6px;
+            text-align: center;
+            color: white;
+            background: black;
+            padding: 15px;
+            display: inline-block;
+            height: 20px;
+            border-radius: 25px;
+        }
+        .Price{
+            width: 60%;
+            background: balck;
+            font-size: large;
+            letter-spacing: 0.6px;
+            text-align: center;
+            color: white;
+            background: black;
+            padding: 15px;
+            display: inline-block;
+            height: 20px;
+            border-radius: 25px;
+        }
+        .Remove{
+            width: 60%;
+            background: balck;
+            font-size: large;
+            letter-spacing: 0.6px;
+            text-align: center;
+            color: white;
+            background: black;
+            padding: 15px;
+            display: inline-block;
+            height: 20px;
+            border-radius: 25px;
+        }
+    }
+
+    .total-section{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 30px;
+        padding: 10px 8vw;
+        font-size: 200%;
+        font-weight: bold;
+    }
+}

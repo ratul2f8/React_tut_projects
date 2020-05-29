@@ -1,0 +1,47 @@
+.drop-down-holder{
+    position: fixed;
+    z-index: 4;
+    top : 19vh;
+    left: 50%;
+    display: block;
+    width: 40vw;
+    height: 60vh;
+    transform: translateX(-50%);
+    background: whitesmoke;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    .cart-items-holder{
+        height : 80%;
+        overflow: scroll;
+        padding: 10px 10px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+        .empty-note{
+            font-size: 150%;
+            margin-top: 20px;
+        }
+    }
+    .button-section{
+        height: 20%;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+
+        .checkout-button{
+            background: whitesmoke;
+            font-weight: bold;
+            padding: 10px 10px;
+            border-radius : 50px;
+            transition: all 0.3s;
+            cursor: pointer;
+
+            &:hover{
+                color: white;
+                background: black;
+            }
+        }
+    }
+}
